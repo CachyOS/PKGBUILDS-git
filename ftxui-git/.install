@@ -1,0 +1,26 @@
+post_install() {
+	echo "-------------------------->"
+	echo "Location of the FTXUI installation:"
+	echo "- Headers     : /usr/include/ftxui/"
+	echo "- Libraries   : /usr/lib/ftxui/"
+	echo "- Cmake config: /usr/lib/cmake/ftxui/"
+	echo ""
+	echo "The libraries are:"
+	echo "- libscreen.a"
+	echo "- libdom.a"
+	echo "- libcomponent.a"
+	echo "Don't forget to link against them."
+	echo ""
+	echo "They corresponds to the cmake targets:"
+	echo "- ftxui::screen"
+	echo "- ftxui::dom"
+	echo "- ftxui::component"
+	echo ""
+	echo "Using cmake, FetchContent and referring to a specific hash version of"
+	echo "FTXUI is recommended instead."
+	echo "<--------------------------"
+}
+
+post_upgrade() {
+	post_install
+}

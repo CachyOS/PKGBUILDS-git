@@ -1,0 +1,16 @@
+pkgbase = ftxui-git
+	pkgdesc = FTXUI is a C++ Functional Terminal User Interface library.
+	pkgver = r286.91c5954
+	pkgrel = 1
+	url = https://github.com/ArthurSonzogni/FTXUI
+	install = .install
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = gcc
+	provides = ftxui
+	conflicts = ftxui
+	source = ftxui::git+https://github.com/ArthurSonzogni/FTXUI
+	md5sums = SKIP
+
+pkgname = ftxui-git
