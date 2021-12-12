@@ -1,0 +1,22 @@
+pkgbase = kcrash-git
+	pkgdesc = Support for application crash analysis and bug report from apps
+	pkgver = 5.83.0_r385.gdf59acb
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = kcoreaddons-git
+	depends = kwindowsystem-git
+	optdepends = drkonqi-git: KDE crash handler application
+	provides = kcrash
+	conflicts = kcrash
+	source = git+https://github.com/KDE/kcrash.git
+	sha256sums = SKIP
+
+pkgname = kcrash-git
+

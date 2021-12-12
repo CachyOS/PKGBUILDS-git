@@ -1,0 +1,24 @@
+pkgbase = khelpcenter-git
+	pkgdesc = Application to show KDE Applications' documentation
+	pkgver = 21.07.70_r2657.g0ca1368f
+	pkgrel = 1
+	url = https://userbase.kde.org/KHelpCenter
+	arch = x86_64
+	groups = kde-applications-git
+	groups = kde-system-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	depends = khtml-git
+	depends = kdoctools-git
+	depends = xapian-core
+	depends = grantlee
+	depends = kinit-git
+	depends = perl
+	provides = khelpcenter
+	conflicts = khelpcenter
+	source = git+https://github.com/KDE/khelpcenter.git
+	sha256sums = SKIP
+
+pkgname = khelpcenter-git
+

@@ -1,0 +1,21 @@
+pkgbase = khotkeys-git
+	pkgdesc = KHotKeys
+	pkgver = 5.22.80_r2071.g04dcaf1
+	pkgrel = 1
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = kdoctools-git
+	makedepends = kdesignerplugin-git
+	makedepends = kinit-git
+	depends = plasma-workspace-git
+	provides = khotkeys
+	conflicts = khotkeys
+	source = git+https://github.com/KDE/khotkeys.git
+	sha256sums = SKIP
+
+pkgname = khotkeys-git
+

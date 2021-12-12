@@ -1,0 +1,25 @@
+pkgbase = kcompletion-git
+	pkgdesc = Text completion helpers and widgets
+	pkgver = 5.83.0_r440.g9c73ac7
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = qt5-tools
+	makedepends = clang
+	makedepends = python-pyqt5
+	makedepends = doxygen
+	makedepends = sip4
+	depends = kwidgetsaddons-git
+	depends = kconfig-git
+	optdepends = python-pyqt5: for the Python bindings
+	provides = kcompletion
+	conflicts = kcompletion
+	source = git+https://github.com/KDE/kcompletion.git
+	sha256sums = SKIP
+
+pkgname = kcompletion-git
+

@@ -1,0 +1,20 @@
+pkgbase = kparts-git
+	pkgdesc = Document centric plugin system
+	pkgver = 5.83.0_r506.g4dcd25c
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = kio-git
+	provides = kparts
+	conflicts = kparts
+	source = git+https://github.com/KDE/kparts.git
+	sha256sums = SKIP
+
+pkgname = kparts-git
+

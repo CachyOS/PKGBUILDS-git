@@ -1,0 +1,20 @@
+pkgbase = kxmlrpcclient-git
+	pkgdesc = XML-RPC client library for KDE
+	pkgver = 5.83.0_r447.gc11427d55
+	pkgrel = 1
+	url = https://projects.kde.org/projects/kde/pim/kxmlrpcclient
+	arch = x86_64
+	groups = kf5-aids-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = kio-git
+	provides = kxmlrpcclient
+	conflicts = kxmlrpcclient
+	source = git+https://github.com/KDE/kxmlrpcclient.git
+	sha256sums = SKIP
+
+pkgname = kxmlrpcclient-git
+

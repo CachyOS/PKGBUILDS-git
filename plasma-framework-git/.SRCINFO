@@ -1,0 +1,25 @@
+pkgbase = plasma-framework-git
+	pkgdesc = Plasma library and runtime components based upon KF5 and Qt5
+	pkgver = r13831.0ffd768
+	pkgrel = 2
+	url = https://projects.kde.org/projects/playground/libs/plasma-framework
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = extra-cmake-modules-git
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = kdoctools-git
+	makedepends = kwayland-git
+	makedepends = kdeclarative-git
+	depends = kactivities-git
+	depends = kparts-git
+	depends = kpackage-git
+	depends = kirigami-git
+	provides = plasma-framework
+	conflicts = plasma-framework
+	source = git+https://invent.kde.org/frameworks/plasma-framework.git
+	md5sums = SKIP
+
+pkgname = plasma-framework-git
+

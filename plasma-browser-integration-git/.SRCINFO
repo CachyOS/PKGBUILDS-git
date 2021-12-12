@@ -1,0 +1,20 @@
+pkgbase = plasma-browser-integration-git
+	pkgdesc = Components necessary to integrate browsers into the Plasma Desktop
+	pkgver = 5.22.80_r1254.gcedda05a
+	pkgrel = 1
+	url = https://www.kde.org/plasma-desktop
+	arch = x86_64
+	groups = plasma-git
+	license = GPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	depends = purpose-git
+	depends = kfilemetadata-git
+	depends = plasma-workspace-git
+	provides = plasma-browser-integration
+	conflicts = plasma-browser-integration
+	source = git+https://github.com/KDE/plasma-browser-integration.git
+	sha256sums = SKIP
+
+pkgname = plasma-browser-integration-git
+

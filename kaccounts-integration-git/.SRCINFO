@@ -1,0 +1,23 @@
+pkgbase = kaccounts-integration-git
+	pkgdesc = Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others
+	pkgver = v20.04.2.r33.g5f0b3ad
+	pkgrel = 1
+	url = https://projects.kde.org/projects/kdereview/kaccounts-integration
+	arch = x86_64
+	license = GPL
+	makedepends = extra-cmake-modules
+	makedepends = git
+	makedepends = kdoctools
+	depends = kcmutils
+	depends = signon-kwallet-extension
+	depends = signon-plugin-oauth2
+	depends = signon-ui
+	optdepends = kaccounts-providers-git: Provider files
+	provides = kaccounts-integration
+	conflicts = kaccounts-integration
+	conflicts = account-plugins
+	source = git+https://invent.kde.org/network/kaccounts-integration.git
+	sha256sums = SKIP
+
+pkgname = kaccounts-integration-git
+

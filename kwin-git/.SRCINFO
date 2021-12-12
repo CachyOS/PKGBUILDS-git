@@ -1,0 +1,36 @@
+pkgbase = kwin-git
+	pkgdesc = An easy to use, but flexible, composited Window Manager
+	pkgver = 5.22.80_r19461.geb27d312a
+	pkgrel = 1
+	url = https://kde.org/plasma-desktop/
+	install = kwin.install
+	arch = x86_64
+	groups = plasma-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = qt5-tools
+	makedepends = kdoctools-git
+	makedepends = krunner-git
+	makedepends = xorg-xwayland
+	depends = kscreenlocker-git
+	depends = xcb-util-cursor
+	depends = plasma-framework-git
+	depends = kcmutils-git
+	depends = kwayland-server-git
+	depends = breeze-git
+	depends = qt5-sensors
+	depends = qt5-script
+	depends = pipewire
+	depends = libqaccessibilityclient-git
+	depends = libdrm
+	depends = lcms2
+	optdepends = qt5-virtualkeyboard: virtual keyboard support for kwin-wayland
+	optdepends = maliit-keyboard: virtual keyboard support for kwin-wayland
+	provides = kwin
+	conflicts = kwin
+	source = git+https://github.com/KDE/kwin.git
+	sha256sums = SKIP
+
+pkgname = kwin-git
+

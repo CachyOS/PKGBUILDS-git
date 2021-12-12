@@ -1,0 +1,21 @@
+pkgbase = kdesu-git
+	pkgdesc = Integration with su for elevated privileges
+	pkgver = 5.83.0_r462.g8a2c65c
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = kservice-git
+	depends = kpty-git
+	provides = kdesu
+	conflicts = kdesu
+	source = git+https://github.com/KDE/kdesu.git
+	sha256sums = SKIP
+
+pkgname = kdesu-git
+

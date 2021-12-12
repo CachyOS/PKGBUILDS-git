@@ -1,0 +1,23 @@
+pkgbase = polkit-kde-agent-git
+	pkgdesc = Daemon providing a polkit authentication UI for KDE
+	pkgver = 5.22.80_r497.gaa6f7c5
+	pkgrel = 1
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = kdoctools-git
+	depends = kiconthemes-git
+	depends = kdbusaddons-git
+	depends = kcrash-git
+	provides = polkit-kde-agent
+	conflicts = polkit-kde-agent
+	conflicts = polkit-kde-git
+	replaces = polkit-kde-git
+	source = git+https://github.com/KDE/polkit-kde-agent-1.git
+	sha256sums = SKIP
+
+pkgname = polkit-kde-agent-git
+

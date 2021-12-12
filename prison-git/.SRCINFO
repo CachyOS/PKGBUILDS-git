@@ -1,0 +1,19 @@
+pkgbase = prison-git
+	pkgdesc = Barcode api currently offering a nice Qt api to produce QRCode barcodes and DataMatrix barcodes. (GIT version)
+	pkgver = v5.72.0.r3.g9449762
+	pkgrel = 1
+	url = https://invent.kde.org/frameworks/prison
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = git
+	depends = libdmtx
+	depends = qrencode
+	depends = qt5-declarative
+	provides = prison
+	conflicts = prison
+	source = git+https://invent.kde.org/frameworks/prison.git
+	md5sums = SKIP
+
+pkgname = prison-git
+

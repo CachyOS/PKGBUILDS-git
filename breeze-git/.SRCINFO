@@ -1,0 +1,25 @@
+pkgbase = breeze-git
+	pkgdesc = Artwork, styles and assets for the Breeze visual style for the Plasma Desktop
+	pkgver = 5.22.80_r2190.g29f1ef63
+	pkgrel = 1
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = kcmutils-git
+	depends = frameworkintegration-git
+	depends = kdecoration-git
+	depends = breeze-icons-git
+	depends = kwayland-git
+	depends = hicolor-icon-theme
+	optdepends = breeze-gtk-git: Breeze widget style for GTK applications
+	optdepends = kcmutils-git: for breeze-settings
+	provides = breeze
+	conflicts = breeze
+	source = git+https://github.com/KDE/breeze.git
+	sha256sums = SKIP
+
+pkgname = breeze-git
+

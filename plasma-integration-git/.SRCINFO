@@ -1,0 +1,25 @@
+pkgbase = plasma-integration-git
+	pkgdesc = Qt Platform Theme integration plugins for the Plasma workspaces
+	pkgver = 5.22.80_r517.ged1c2fa
+	pkgrel = 1
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = breeze-git
+	depends = kio-git
+	depends = kwayland-git
+	depends = libxcursor
+	depends = noto-fonts
+	depends = ttf-hack
+	depends = qqc2-desktop-style-git
+	depends = perl
+	provides = plasma-integration
+	conflicts = plasma-integration
+	source = git+https://github.com/KDE/plasma-integration.git
+	sha256sums = SKIP
+
+pkgname = plasma-integration-git
+

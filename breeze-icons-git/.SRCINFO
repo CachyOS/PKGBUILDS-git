@@ -1,0 +1,18 @@
+pkgbase = breeze-icons-git
+	pkgdesc = Breeze icon themes for KDE Plasma. (GIT version)
+	pkgver = 5.72.0.r1595.2c1ccab2
+	pkgrel = 1
+	url = https://quickgit.kde.org/?p=breeze-icons.git
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = git
+	makedepends = qt5-base
+	provides = breeze-icons
+	conflicts = breeze-icons
+	source = git+https://invent.kde.org/frameworks/breeze-icons.git
+	sha256sums = SKIP
+
+pkgname = breeze-icons-git
+

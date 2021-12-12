@@ -1,0 +1,22 @@
+pkgbase = bluedevil-git
+	pkgdesc = Integrate the Bluetooth technology within KDE workspace and applications
+	pkgver = 5.21.80_r2238.g2de8dd48
+	pkgrel = 1
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma-git
+	license = GPL2
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = plasma-framework-git
+	makedepends = kded-git
+	depends = bluez-qt
+	depends = kdeclarative-git
+	optdepends = pulseaudio-bluetooth: to connect to A2DP profile
+	provides = bluedevil
+	conflicts = bluedevil
+	source = git+https://github.com/KDE/bluedevil.git
+	sha256sums = SKIP
+
+pkgname = bluedevil-git
+

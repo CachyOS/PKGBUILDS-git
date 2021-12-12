@@ -1,0 +1,22 @@
+pkgbase = kdeclarative-git
+	pkgdesc = Provides integration of QML and KDE Frameworks
+	pkgver = 5.83.0_r891.g23f570d
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = kio-git
+	depends = kpackage-git
+	depends = libepoxy
+	provides = kdeclarative
+	conflicts = kdeclarative
+	source = git+https://github.com/KDE/kdeclarative.git
+	sha256sums = SKIP
+
+pkgname = kdeclarative-git
+

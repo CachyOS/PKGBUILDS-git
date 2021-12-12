@@ -1,0 +1,22 @@
+pkgbase = solid-git
+	pkgdesc = Hardware integration and detection
+	pkgver = v4.100.0.rc1.r421.g8e0957c
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/solid
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = git
+	makedepends = qt5-tools
+	depends = qt5-declarative
+	depends = media-player-info
+	depends = udisks2
+	depends = upower
+	provides = solid
+	conflicts = solid
+	source = git+https://invent.kde.org/frameworks/solid.git
+	md5sums = SKIP
+
+pkgname = solid-git
+
