@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 files=$(find . -name "PKGBUILD")
 
 for f in $files
