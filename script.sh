@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-paru -G 
-adwaita-qt-git \
+paru -G adwaita-qt-git \
 ant-dracula-kde-theme-git \
 ant-dracula-theme-git \
 apparmor-git \
