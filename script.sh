@@ -31,18 +31,6 @@ ftxui-git \
 gcc-git \
 gccrs-git \
 git-git \
-gnome-shell-extension-appindicator-git \
-gnome-shell-extension-audio-output-switcher-git \
-gnome-shell-extension-bluetooth-quick-connect-git \
-gnome-shell-extension-caffeine-git \
-gnome-shell-extension-dash-to-dock-git \
-gnome-shell-extension-gamemode-git \
-gnome-shell-extension-impatience-git \
-gnome-shell-extension-material-shell-git \
-gnome-shell-extension-no-annoyance-git \
-gnome-shell-extension-no-overview
-gnome-shell-extension-sound-output-device-chooser-git \
-gnome-shell-extension-volume-mixer-git \
 kaccounts-integration-git \
 kactivities-git \
 kactivities-stats-git \
@@ -136,7 +124,7 @@ lib32-mesa-git \
 libkscreen-git \
 libksysguard-git \
 libretro-fbneo-git \
-librewolf-hg
+librewolf-hg \
 lightly-git \
 llvm-git \
 mesa-git \
