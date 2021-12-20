@@ -151,10 +151,13 @@ poppler-git \
 powerdevil-git \
 prison-git \
 purpose-git \
+proton \
+proton-experimental \
+wine-ge-custom \
+proton-ge-custom \
 qbittorrent-enhanced-git \
 qgnomeplatform-git \
 qqc2-desktop-style-git \
-script.sh
 signon-kwallet-extension-git \
 solid-git \
 sonnet-git \
