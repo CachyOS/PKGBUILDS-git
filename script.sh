@@ -22,14 +22,11 @@ exa-git \
 fastfetch-git \
 fbneo-git \
 ffmpeg-full-git \
-ffmpeg-git \
 findex-git \
 firejail-git \
 fish-git \
 frameworkintegration-git \
 ftxui-git \
-gcc-git \
-gccrs-git \
 git-git \
 kaccounts-integration-git \
 kactivities-git \
@@ -53,16 +50,9 @@ kdeclarative-git \
 kdeconnect-git \
 kdecoration-git \
 kded-git \
-kde-git \
 kde-gtk-config-git \
 kdelibs4support-git \
 kdeplasma-addons-git \
-kdesu-git \
-kdialog-git \
-kdisplay-git \
-kdnssd-git \
-kdoctools-git \
-kdsoap-git \
 kdsoap-ws-discovery-client-git \
 keepassxc-git \
 kemoticons-git \
@@ -121,10 +111,8 @@ kwin-git \
 kxmlgui-git \
 kxmlrpcclient-git \
 lib32-mesa-git \
-libkscreen-git \
 libksysguard-git \
 libretro-fbneo-git \
-librewolf-hg \
 lightly-git \
 llvm-git \
 mesa-git \
@@ -138,19 +126,10 @@ openrgb-git \
 pacui-git \
 phoronix-test-suite-git \
 pipewire-full-git \
-plasma-browser-integration-git \
-plasma-desktop-git \
-plasma-disks-git \
-plasma-framework-git \
-plasma-integration-git \
-plasma-nm-git \
-plasma-pa-git \
-plasma-workspace-git \
-polkit-kde-agent-git \
 poppler-git \
 powerdevil-git \
 prison-git \
-purpose-git \
+kwinft-git \
 proton \
 proton-experimental \
 wine-ge-custom \
@@ -169,7 +148,6 @@ v4l2loopback-dkms-git \
 wayland-git \
 wlroots-git \
 wrapland-git \
-xdg-desktop-portal-kde-git \
 zellij-git
 
 files=$(find . -name "PKGBUILD")
@@ -179,7 +157,7 @@ do
         d=$(dirname $f)
         echo "makepkg -src --sign --skipinteg --noconfirm $f"
         cd $d
-        docker run --name dockerbuild -e EXPORT_PKG=1 -v $PWD:/pkg pttrr/docker-makepkg:latest
+        docker run --name dockerbuild -e EXPORT_PKG=1 -v $PWD:/pkg -v /home/ptr1337/ccache:/home/notroot/ccache pttrr/docker-makepkg
         docker rm dockerbuild
         cd ..
 done
