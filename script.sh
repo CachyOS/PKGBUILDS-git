@@ -6,6 +6,7 @@ paru -G ant-dracula-kde-theme-git \
 ant-dracula-theme-git \
 apparmor-git \
 arch-audit-git \
+qbittorrent-enhanced-git \
 bleachbit-git \
 breeze-git \
 breeze-icons-git \
