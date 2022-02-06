@@ -5,11 +5,10 @@ rm -rf *-git
 paru -G ant-dracula-kde-theme-git \
 ant-dracula-theme-git \
 apparmor-git \
+obs-studio-tytan652 \
 arch-audit-git \
 qbittorrent-enhanced-git \
 bleachbit-git \
-breeze-git \
-breeze-icons-git \
 ckb-next-git \
 contour-git \
 cutefish-git \
