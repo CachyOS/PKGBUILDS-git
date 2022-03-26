@@ -24,6 +24,8 @@ ftxui-git \
 git-git \
 kwin-bismuth-git \
 kwinft-git \
+gcc-git \
+gccrs-git \
 lib32-mesa-git \
 libretro-fbneo-git \
 lightly-git \
@@ -39,7 +41,6 @@ proton \
 proton-experimental \
 wine-ge-custom \
 proton-ge-custom \
-threadweaver-git \
 wayland-git \
 wlroots-git \
 wrapland-git \
