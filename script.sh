@@ -37,14 +37,19 @@ openrgb-git \
 pacui-git \
 pipewire-full-git \
 kwinft-git \
-proton \
-proton-experimental \
-wine-ge-custom \
-proton-ge-custom \
 wayland-git \
 wlroots-git \
 wrapland-git \
-zellij-git
+zellij-git \
+gamescope-git
+
+
+## proton builds takes currently to long due a bug in mingw-w64-binutils which needs to force the make to one core
+
+# proton \
+# proton-experimental \
+# wine-ge-custom \
+# proton-ge-custom \
 
 files=$(find . -name "PKGBUILD")
 
