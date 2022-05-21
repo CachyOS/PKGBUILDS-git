@@ -31,7 +31,6 @@ libretro-fbneo-git \
 lightly-git \
 llvm-git \
 mesa-git \
-noisetorch-git \
 openrazer-git \
 openrgb-git \
 pacui-git \
