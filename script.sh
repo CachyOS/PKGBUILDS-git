@@ -24,8 +24,6 @@ ftxui-git \
 git-git \
 kwin-bismuth-git \
 kwinft-git \
-gcc-git \
-gccrs-git \
 lib32-mesa-git \
 libretro-fbneo-git \
 lightly-git \
@@ -49,6 +47,12 @@ gamescope-git
 # proton-experimental \
 # wine-ge-custom \
 # proton-ge-custom \
+
+## drop gcc/gccrs since it conflicts at building with the dependecies 
+
+# gcc-git \
+# gccrs-git \
+
 
 files=$(find . -name "PKGBUILD")
 
