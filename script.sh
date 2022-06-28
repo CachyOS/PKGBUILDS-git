@@ -22,6 +22,7 @@ firejail-git \
 fish-git \
 ftxui-git \
 git-git \
+gcc-git \
 kwin-bismuth-git \
 kwinft-git \
 lib32-mesa-git \
@@ -38,19 +39,10 @@ wayland-git \
 wlroots-git \
 wrapland-git \
 zellij-git \
+bspwm-git \
 gamescope-git
 
-
-## proton builds takes currently to long due a bug in mingw-w64-binutils which needs to force the make to one core
-
-# proton \
-# proton-experimental \
-# wine-ge-custom \
-# proton-ge-custom \
-
-## drop gcc/gccrs since it conflicts at building with the dependecies 
-
-# gcc-git \
+## drop gccrs since it conflicts at building with the dependecies 
 # gccrs-git \
 
 
@@ -60,9 +52,10 @@ for f in $files
 do
         d=$(dirname $f)
         cd $d
-        docker run --name dockerbuild -e EXPORT_PKG=1 -v $PWD:/pkg -v /home/ptr1337/ccache:/home/notroot/ccache pttrr/docker-makepkg
-        docker rm dockerbuild
+        docker run --name ci-build -e EXPORT_PKG=1 -e USE_PARU=1 -e SYNC_DATABASE=1 -v $PWD:/pkg -v /home/ptr1337/ccache:/home/notroot/.buildcache pttrr/docker-makepkg
+        docker rm ci-build
         cd ..
 done
 
-mv */*.tar.zst* /home/ptr1337/packages/
+mv */*.tar.zst* /home/ptr1337/packages/v1
+
