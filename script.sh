@@ -3,7 +3,6 @@
 rm -rf *-git
 
 paru -G ant-dracula-kde-theme-git \
-ant-dracula-theme-git \
 apparmor-git \
 obs-studio-tytan652 \
 arch-audit-git \
@@ -23,13 +22,12 @@ fish-git \
 ftxui-git \
 git-git \
 gcc-git \
+gccrs-git \
 kwin-bismuth-git \
 kwinft-git \
-lib32-mesa-git \
 libretro-fbneo-git \
 lightly-git \
 llvm-git \
-mesa-git \
 openrazer-git \
 openrgb-git \
 pacui-git \
@@ -42,10 +40,6 @@ zellij-git \
 bspwm-git \
 gamescope-git
 
-## drop gccrs since it conflicts at building with the dependecies 
-# gccrs-git \
-
-
 files=$(find . -name "PKGBUILD")
 
 for f in $files
@@ -57,5 +51,5 @@ do
         cd ..
 done
 
-mv */*.tar.zst* /home/ptr1337/packages/v1
-
+mv *.tar.zst* /home/ptr1337/.docker/build/nginx/www/repo/x86_64/cachyos
+repoctl update -P cachyos
