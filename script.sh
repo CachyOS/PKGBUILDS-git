@@ -38,7 +38,8 @@ wlroots-git \
 wrapland-git \
 zellij-git \
 bspwm-git \
-gamescope-git
+gamescope-git \
+xorg-xwayland-git
 
 files=$(find . -name "PKGBUILD")
 
