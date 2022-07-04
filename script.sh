@@ -39,7 +39,8 @@ zellij-git \
 bspwm-git \
 gamescope-git \
 xorg-xwayland-git \
-spectrwm-git
+spectrwm-git \
+krusader-git
 
 files=$(find . -name "PKGBUILD")
 
