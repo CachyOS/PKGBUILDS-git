@@ -22,7 +22,6 @@ fish-git \
 ftxui-git \
 git-git \
 gcc-git \
-gccrs-git \
 kwin-bismuth-git \
 kwinft-git \
 libretro-fbneo-git \
