@@ -32,6 +32,7 @@ openrazer-git \
 openrgb-git \
 pacui-git \
 pipewire-full-git \
+popsicle \
 kwinft-git \
 wayland-git \
 wlroots-git \
@@ -41,6 +42,8 @@ bspwm-git \
 gamescope-git \
 xorg-xwayland-git \
 spectrwm-git \
+ventoy-bin \
+balena-etcher \
 krusader-git
 
 files=$(find . -name "PKGBUILD")
