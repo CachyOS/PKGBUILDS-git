@@ -44,7 +44,9 @@ xorg-xwayland-git \
 spectrwm-git \
 ventoy-bin \
 balena-etcher \
-krusader-git
+krusader-git \
+wayfire-plugins-extra-git \
+wayfire-git
 
 files=$(find . -name "PKGBUILD")
 
