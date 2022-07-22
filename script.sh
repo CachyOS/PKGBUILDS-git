@@ -45,7 +45,8 @@ ventoy-bin \
 balena-etcher \
 krusader-git \
 wayfire-plugins-extra-git \
-wayfire-git
+wayfire-git \
+bcachefs-tools-git
 
 files=$(find . -name "PKGBUILD")
 
