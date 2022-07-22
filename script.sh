@@ -27,7 +27,6 @@ kwin-bismuth-git \
 kwinft-git \
 libretro-fbneo-git \
 lightly-git \
-llvm-git \
 openrazer-git \
 openrgb-git \
 pacui-git \
