@@ -46,7 +46,8 @@ balena-etcher \
 krusader-git \
 wayfire-plugins-extra-git \
 wayfire-git \
-bcachefs-tools-git
+bcachefs-tools-git \
+ananicy-rules-git
 
 files=$(find . -name "PKGBUILD")
 
