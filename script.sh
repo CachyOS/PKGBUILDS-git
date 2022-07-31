@@ -26,6 +26,7 @@ kwin-bismuth-git \
 kwinft-git \
 libretro-fbneo-git \
 lightly-git \
+lapce-git \
 openrazer-git \
 openrgb-git \
 pacui-git \
@@ -46,7 +47,10 @@ krusader-git \
 wayfire-plugins-extra-git \
 wayfire-git \
 bcachefs-tools-git \
-ananicy-rules-git
+ananicy-rules-git \
+mold-git \
+gnome-shell-extension-pop-shell-git
+
 
 files=$(find . -name "PKGBUILD")
 
