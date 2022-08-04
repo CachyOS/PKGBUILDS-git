@@ -46,6 +46,7 @@ balena-etcher \
 krusader-git \
 wayfire-plugins-extra-git \
 wayfire-git \
+wf-osk-git \
 bcachefs-tools-git \
 ananicy-rules-git \
 mold-git \
