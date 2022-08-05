@@ -46,6 +46,7 @@ balena-etcher \
 krusader-git \
 wf-osk-git \
 bcachefs-tools-git \
+swaylock-effects-git \
 mold-git
 
 
