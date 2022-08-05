@@ -44,13 +44,9 @@ spectrwm-git \
 ventoy-bin \
 balena-etcher \
 krusader-git \
-wayfire-plugins-extra-git \
-wayfire-git \
 wf-osk-git \
 bcachefs-tools-git \
-ananicy-rules-git \
-mold-git \
-gnome-shell-extension-pop-shell-git
+mold-git
 
 
 files=$(find . -name "PKGBUILD")
