@@ -47,7 +47,8 @@ krusader-git \
 wf-osk-git \
 bcachefs-tools-git \
 swaylock-effects-git \
-mold-git
+mold-git \
+firefox-wayland-hg
 
 
 files=$(find . -name "PKGBUILD")
