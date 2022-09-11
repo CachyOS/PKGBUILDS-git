@@ -48,7 +48,8 @@ wf-osk-git \
 bcachefs-tools-git \
 swaylock-effects-git \
 mold-git \
-firefox-wayland-hg
+firefox-wayland-hg \
+qbittorrent-enhanced-git
 
 
 files=$(find . -name "PKGBUILD")
