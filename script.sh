@@ -31,7 +31,6 @@ openrazer-git \
 openrgb-git \
 pacui-git \
 pipewire-full-git \
-popsicle \
 kwinft-git \
 wayland-git \
 wlroots-git \
@@ -42,14 +41,14 @@ gamescope-git \
 xorg-xwayland-git \
 spectrwm-git \
 ventoy-bin \
-balena-etcher \
 krusader-git \
 wf-osk-git \
 bcachefs-tools-git \
 swaylock-effects-git \
 mold-git \
 firefox-wayland-hg \
-qbittorrent-enhanced-git
+qbittorrent-enhanced-git \
+hyprland-git
 
 
 files=$(find . -name "PKGBUILD")
