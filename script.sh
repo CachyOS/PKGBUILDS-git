@@ -5,7 +5,6 @@ rm -rf *-git
 paru -G ant-dracula-kde-theme-git \
 apparmor-git \
 obs-studio-tytan652 \
-arch-audit-git \
 qbittorrent-enhanced-git \
 bleachbit-git \
 ckb-next-git \
@@ -16,6 +15,7 @@ exa-git \
 fastfetch-git \
 fbneo-git \
 ffmpeg-full-git \
+ffmpeg-git \
 findex-git \
 firejail-git \
 fish-git \
@@ -48,7 +48,9 @@ swaylock-effects-git \
 mold-git \
 firefox-wayland-hg \
 qbittorrent-enhanced-git \
-hyprland-git
+hyprland-git \
+mesa-git \
+lib32-mesa-git \
 
 
 files=$(find . -name "PKGBUILD")
