@@ -30,7 +30,6 @@ lapce-git \
 openrazer-git \
 openrgb-git \
 pacui-git \
-pipewire-full-git \
 kwinft-git \
 wayland-git \
 wlroots-git \
