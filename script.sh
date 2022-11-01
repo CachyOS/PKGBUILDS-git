@@ -47,9 +47,7 @@ swaylock-effects-git \
 mold-git \
 firefox-wayland-hg \
 qbittorrent-enhanced-git \
-hyprland-git \
-mesa-git \
-lib32-mesa-git \
+hyprland-git
 
 
 files=$(find . -name "PKGBUILD")
