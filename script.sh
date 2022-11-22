@@ -3,6 +3,11 @@
 rm -rf *-git
 
 paru -G ant-dracula-kde-theme-git \
+dracula-icons-git \
+dracula-cursors-git \
+dracula-xresources-git \
+dracula-grub-theme-git \
+konsole-dracula-git \
 apparmor-git \
 obs-studio-tytan652 \
 qbittorrent-enhanced-git \
