@@ -8,6 +8,7 @@ dracula-cursors-git \
 dracula-xresources-git \
 dracula-grub-theme-git \
 konsole-dracula-git \
+corefreq-dkms-git \
 apparmor-git \
 obs-studio-tytan652 \
 qbittorrent-enhanced-git \
