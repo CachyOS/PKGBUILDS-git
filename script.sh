@@ -53,7 +53,8 @@ mold-git \
 firefox-wayland-hg \
 qbittorrent-enhanced-git \
 hyprland-git /
-webcord-git
+webcord-git \
+latte-dock-git
 
 
 files=$(find . -name "PKGBUILD")
