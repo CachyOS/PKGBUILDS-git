@@ -52,7 +52,8 @@ swaylock-effects-git \
 mold-git \
 firefox-wayland-hg \
 qbittorrent-enhanced-git \
-hyprland-git
+hyprland-git /
+webcord-git
 
 
 files=$(find . -name "PKGBUILD")
