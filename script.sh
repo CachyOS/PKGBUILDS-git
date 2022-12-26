@@ -11,7 +11,6 @@ konsole-dracula-git \
 corefreq-dkms-git \
 apparmor-git \
 obs-studio-tytan652 \
-qbittorrent-enhanced-git \
 bleachbit-git \
 ckb-next-git \
 contour-git \
