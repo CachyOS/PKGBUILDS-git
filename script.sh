@@ -50,9 +50,9 @@ wf-osk-git \
 bcachefs-tools-git \
 swaylock-effects-git \
 mold-git \
+nss-hg \
 firefox-wayland-hg \
-qbittorrent-enhanced-git \
-hyprland-git /
+hyprland-git \
 webcord-git \
 latte-dock-git
 
