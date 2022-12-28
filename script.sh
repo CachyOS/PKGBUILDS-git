@@ -53,7 +53,8 @@ nss-hg \
 firefox-wayland-hg \
 hyprland-git \
 webcord-git \
-latte-dock-git
+latte-dock-git \
+bottles-git
 
 
 files=$(find . -name "PKGBUILD")
