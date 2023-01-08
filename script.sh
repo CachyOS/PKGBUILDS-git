@@ -54,7 +54,10 @@ firefox-wayland-hg \
 hyprland-git \
 webcord-git \
 latte-dock-git \
-bottles-git
+bottles-git \
+waybar-hyprland-git \
+xdg-desktop-portal-hyprland-git \
+waybar-mpris-git
 
 
 files=$(find . -name "PKGBUILD")
