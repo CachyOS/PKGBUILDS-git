@@ -57,7 +57,8 @@ latte-dock-git \
 bottles-git \
 waybar-hyprland-git \
 xdg-desktop-portal-hyprland-git \
-waybar-mpris-git
+waybar-mpris-git \
+armcord-git
 
 
 files=$(find . -name "PKGBUILD")
