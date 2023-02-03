@@ -58,7 +58,8 @@ bottles-git \
 waybar-hyprland-git \
 xdg-desktop-portal-hyprland-git \
 waybar-mpris-git \
-armcord-git
+armcord-git \
+xorgproto-git
 
 
 files=$(find . -name "PKGBUILD")
