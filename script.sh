@@ -49,8 +49,6 @@ wf-osk-git \
 bcachefs-tools-git \
 swaylock-effects-git \
 mold-git \
-nss-hg \
-firefox-wayland-hg \
 hyprland-git \
 webcord-git \
 latte-dock-git \
