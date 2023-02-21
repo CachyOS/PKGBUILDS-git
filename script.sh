@@ -50,7 +50,6 @@ bcachefs-tools-git \
 swaylock-effects-git \
 mold-git \
 hyprland-git \
-webcord-git \
 latte-dock-git \
 bottles-git \
 waybar-hyprland-git \
