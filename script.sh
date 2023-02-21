@@ -56,8 +56,9 @@ waybar-hyprland-git \
 xdg-desktop-portal-hyprland-git \
 waybar-mpris-git \
 armcord-git \
-xorgproto-git
-
+xorgproto-git \
+nss-hg \
+firefox-wayland-hg
 
 files=$(find . -name "PKGBUILD")
 
