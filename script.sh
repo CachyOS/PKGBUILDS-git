@@ -58,7 +58,8 @@ waybar-mpris-git \
 armcord-git \
 xorgproto-git \
 nss-hg \
-firefox-wayland-hg
+firefox-wayland-hg \
+ffmpeg-git
 
 files=$(find . -name "PKGBUILD")
 
