@@ -59,7 +59,8 @@ armcord-git \
 xorgproto-git \
 nss-hg \
 firefox-wayland-hg \
-ffmpeg-git
+ffmpeg-git \
+btrfs-assistant-git
 
 files=$(find . -name "PKGBUILD")
 
