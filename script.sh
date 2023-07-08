@@ -60,7 +60,8 @@ xorgproto-git \
 nss-hg \
 firefox-wayland-hg \
 ffmpeg-git \
-btrfs-assistant-git
+btrfs-assistant-git \
+fractal-git
 
 files=$(find . -name "PKGBUILD")
 
