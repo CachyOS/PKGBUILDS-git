@@ -61,7 +61,8 @@ nss-hg \
 firefox-wayland-hg \
 ffmpeg-git \
 btrfs-assistant-git \
-fractal-git
+fractal-git \
+numad-git
 
 files=$(find . -name "PKGBUILD")
 
