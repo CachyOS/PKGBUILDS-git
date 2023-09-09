@@ -62,7 +62,8 @@ firefox-wayland-hg \
 ffmpeg-git \
 btrfs-assistant-git \
 fractal-git \
-numad-git
+numad-git \
+apparmor.d-git
 
 files=$(find . -name "PKGBUILD")
 
