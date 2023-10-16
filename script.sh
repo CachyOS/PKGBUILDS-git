@@ -49,7 +49,6 @@ wf-osk-git \
 bcachefs-tools-git \
 swaylock-effects-git \
 mold-git \
-hyprland-git \
 latte-dock-git \
 bottles-git \
 waybar-hyprland-git \
@@ -58,7 +57,6 @@ waybar-mpris-git \
 armcord-git \
 xorgproto-git \
 nss-hg \
-firefox-wayland-hg \
 ffmpeg-git \
 btrfs-assistant-git \
 fractal-git \
