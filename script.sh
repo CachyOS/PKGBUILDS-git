@@ -8,7 +8,6 @@ dracula-cursors-git \
 dracula-xresources-git \
 dracula-grub-theme-git \
 konsole-dracula-git \
-corefreq-dkms-git \
 apparmor-git \
 obs-studio-tytan652 \
 bleachbit-git \
@@ -16,7 +15,7 @@ ckb-next-git \
 contour-git \
 cutefish-git \
 disman-git \
-exa-git \
+eza-git \
 fastfetch-git \
 fbneo-git \
 ffmpeg-full-git \
@@ -31,9 +30,8 @@ kwinft-git \
 libretro-fbneo-git \
 lightly-git \
 lapce-git \
-openrazer-git \
 openrgb-git \
-pacui-git \
+parui-git \
 kwinft-git \
 wayland-git \
 wlroots-git \
