@@ -24,7 +24,6 @@ findex-git \
 firejail-git \
 fish-git \
 ftxui-git \
-git-git \
 kwin-bismuth-git \
 kwinft-git \
 libretro-fbneo-git \
