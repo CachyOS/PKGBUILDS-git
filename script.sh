@@ -58,7 +58,10 @@ ffmpeg-git \
 btrfs-assistant-git \
 fractal-git \
 numad-git \
-apparmor.d-git
+apparmor.d-git \
+linux-firmware-git \
+vkd3d-proton-git \
+dxvk-mingw-git
 
 files=$(find . -name "PKGBUILD")
 
