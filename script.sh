@@ -61,7 +61,8 @@ numad-git \
 apparmor.d-git \
 linux-firmware-git \
 vkd3d-proton-git \
-dxvk-mingw-git
+dxvk-mingw-git \
+linux-sched-ext-git
 
 files=$(find . -name "PKGBUILD")
 
