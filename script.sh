@@ -62,7 +62,9 @@ apparmor.d-git \
 linux-firmware-git \
 vkd3d-proton-git \
 dxvk-mingw-git \
-linux-sched-ext-git
+linux-sched-ext-git \
+vulkan-nouveau-git \
+lib32-vulkan-nouveau-git
 
 files=$(find . -name "PKGBUILD")
 
