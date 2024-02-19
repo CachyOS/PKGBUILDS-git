@@ -64,7 +64,8 @@ vkd3d-proton-git \
 dxvk-mingw-git \
 linux-sched-ext-git \
 vulkan-nouveau-git \
-lib32-vulkan-nouveau-git
+lib32-vulkan-nouveau-git \
+cosmic-epoch-git
 
 files=$(find . -name "PKGBUILD")
 
