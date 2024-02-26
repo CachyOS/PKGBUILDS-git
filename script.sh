@@ -12,6 +12,7 @@ apparmor-git \
 obs-studio-tytan652 \
 bleachbit-git \
 ckb-next-git \
+contour-git \
 cutefish-git \
 disman-git \
 eza-git \
