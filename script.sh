@@ -58,6 +58,7 @@ ffmpeg-git \
 btrfs-assistant-git \
 fractal-git \
 numad-git \
+neovim-git \
 apparmor.d-git \
 linux-firmware-git \
 vkd3d-proton-git \
