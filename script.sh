@@ -66,7 +66,8 @@ dxvk-mingw-git \
 linux-sched-ext-git \
 vulkan-nouveau-git \
 lib32-vulkan-nouveau-git \
-cosmic-epoch-git
+cosmic-epoch-git \
+gccrs-git
 
 files=$(find . -name "PKGBUILD")
 
