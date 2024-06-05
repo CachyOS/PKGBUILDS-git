@@ -48,8 +48,6 @@ swaylock-effects-git \
 mold-git \
 latte-dock-git \
 bottles-git \
-waybar-hyprland-git \
-xdg-desktop-portal-hyprland-git \
 waybar-mpris-git \
 armcord-git \
 xorgproto-git \
