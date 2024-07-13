@@ -64,8 +64,29 @@ dxvk-mingw-git \
 linux-sched-ext-git \
 vulkan-nouveau-git \
 lib32-vulkan-nouveau-git \
-cosmic-epoch-git \
-gccrs-git
+gccrs-git \
+cosmic-applibrary-git \
+cosmic-launcher-git \
+cosmic-notifications-git \
+cosmic-icons-git \
+cosmic-comp-git \
+cosmic-greeter-git \
+cosmic-files-git \
+cosmic-applets-git \
+cosmic-bg-git \
+cosmic-osd-git \
+cosmic-panel-git \
+xdg-desktop-portal-cosmic-git \
+cosmic-screenshot-git \
+cosmic-settings-daemon-git \
+cosmic-settings-git \
+cosmic-workspaces-git \
+cosmic-edit-git \
+cosmic-files-git \
+cosmic-term-git \
+cosmic-wallpapers-git \
+cosmic-session-git
+
 
 files=$(find . -name "PKGBUILD")
 
