@@ -85,7 +85,8 @@ cosmic-edit-git \
 cosmic-files-git \
 cosmic-term-git \
 cosmic-wallpapers-git \
-cosmic-session-git
+cosmic-session-git \
+mpv-git
 
 
 files=$(find . -name "PKGBUILD")
