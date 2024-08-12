@@ -58,7 +58,6 @@ gccrs-git \
 cosmic-applibrary-git \
 cosmic-launcher-git \
 cosmic-notifications-git \
-cosmic-icons-git \
 cosmic-comp-git \
 cosmic-greeter-git \
 cosmic-files-git \
