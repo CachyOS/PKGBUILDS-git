@@ -74,8 +74,12 @@ cosmic-edit-git \
 cosmic-files-git \
 cosmic-term-git \
 cosmic-wallpapers-git \
-cosmic-session-git \
-mpv-git
+cosmic-session-git
+
+# Use custom mpv-git package to avoid issues
+mkdir mpv-git && cd mpv-git
+wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/mpv-git/PKGBUILD
+cd ..
 
 
 files=$(find . -name "PKGBUILD")
