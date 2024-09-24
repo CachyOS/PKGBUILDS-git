@@ -51,6 +51,7 @@ neovim-git \
 apparmor.d-git \
 linux-firmware-git \
 vkd3d-proton-git \
+vkd3d-proton-mingw-git \
 dxvk-mingw-git \
 vulkan-nouveau-git \
 lib32-vulkan-nouveau-git \
