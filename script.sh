@@ -82,6 +82,11 @@ mkdir mpv-git && cd mpv-git
 wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/mpv-git/PKGBUILD
 cd ..
 
+## cachyos-ananicy-rules
+mkdir cachyos-ananicy-rules && cd cachyos-ananicy-rules
+wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/cachyos-ananicy-rules/PKGBUILD
+cd ..
+
 
 files=$(find . -name "PKGBUILD")
 
