@@ -96,4 +96,4 @@ done
 
 mv */*.tar.zst* /home/ptr1337/.docker/build/nginx/www/repo/x86_64/cachyos
 update-repo
-repoctl update -P cachyos
+RUST_LOG=trace repo-manage-util -p cachyos update
