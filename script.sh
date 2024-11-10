@@ -42,7 +42,6 @@ waybar-mpris-git \
 armcord-git \
 xorgproto-git \
 nss-hg \
-ffmpeg-git \
 btrfs-assistant-git \
 fractal-git \
 numad-git \
