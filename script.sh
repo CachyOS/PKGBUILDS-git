@@ -15,7 +15,6 @@ cutefish-git \
 eza-git \
 fastfetch-git \
 fbneo-git \
-ffmpeg-git \
 findex-git \
 firejail-git \
 fish-git \
@@ -53,8 +52,6 @@ linux-firmware-git \
 vkd3d-proton-git \
 vkd3d-proton-mingw-git \
 dxvk-mingw-git \
-vulkan-nouveau-git \
-lib32-vulkan-nouveau-git \
 gccrs-git \
 cosmic-applibrary-git \
 cosmic-launcher-git \
