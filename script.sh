@@ -47,7 +47,6 @@ fractal-git \
 numad-git \
 neovim-git \
 apparmor.d-git \
-linux-firmware-git \
 vkd3d-proton-git \
 vkd3d-proton-mingw-git \
 dxvk-mingw-git \
