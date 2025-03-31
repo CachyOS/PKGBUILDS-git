@@ -21,7 +21,6 @@ fish-git \
 ftxui-git \
 kwinft-git \
 libretro-fbneo-git \
-lightly-git \
 lapce-git \
 openrgb-git \
 parui-git \
