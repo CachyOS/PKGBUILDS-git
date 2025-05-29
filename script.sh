@@ -69,7 +69,8 @@ cosmic-edit-git \
 cosmic-files-git \
 cosmic-term-git \
 cosmic-wallpapers-git \
-cosmic-session-git
+cosmic-session-git \
+cosmic-randr-git
 
 # Use custom mpv-git package to avoid issues
 mkdir mpv-git && cd mpv-git
