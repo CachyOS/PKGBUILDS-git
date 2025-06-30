@@ -49,6 +49,7 @@ apparmor.d-git \
 vkd3d-proton-git \
 vkd3d-proton-mingw-git \
 dxvk-mingw-git \
+lact-git \
 gccrs-git \
 cosmic-applibrary-git \
 cosmic-launcher-git \
@@ -71,7 +72,7 @@ cosmic-term-git \
 cosmic-wallpapers-git \
 cosmic-session-git \
 cosmic-randr-git \
-cosmic-icons-git
+cosmic-icons-git 
 
 # Use custom mpv-git package to avoid issues
 mkdir mpv-git && cd mpv-git
