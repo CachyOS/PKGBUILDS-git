@@ -70,6 +70,10 @@ mkdir mpv-git && cd mpv-git
 wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/mpv-git/PKGBUILD
 cd ..
 
+# Use custom mpv-git package to avoid issues
+mkdir quickshell-git && cd quickshell-git
+wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/quickshell-git/PKGBUILD
+cd ..
 
 files=$(find . -name "PKGBUILD")
 
