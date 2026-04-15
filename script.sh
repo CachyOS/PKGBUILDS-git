@@ -2,8 +2,7 @@
 
 rm -rf *-git
 
-paru -G ant-dracula-kde-theme-git \
-dracula-icons-git \
+paru -G dracula-icons-git \
 dracula-cursors-git \
 dracula-xresources-git \
 dracula-grub-theme-git \
@@ -42,7 +41,6 @@ vkd3d-proton-mingw-git \
 dxvk-mingw-git \
 lact-git \
 gccrs-git \
-cosmic-applibrary-git \
 cosmic-launcher-git \
 cosmic-notifications-git \
 cosmic-comp-git \
