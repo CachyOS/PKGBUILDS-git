@@ -27,7 +27,7 @@ spectrwm-git \
 krusader-git \
 wf-osk-git \
 bcachefs-tools-git \
-swaylock-effects-git \
+swaylock-git \
 mold-git \
 waybar-mpris-git \
 nss-hg \
