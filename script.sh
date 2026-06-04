@@ -2,6 +2,8 @@
 
 rm -rf *-git
 
+ARTIFACTS_PATH="$PWD/artifacts"
+
 paru -G dracula-icons-git \
 dracula-cursors-git \
 dracula-xresources-git \
@@ -76,15 +78,19 @@ cd ..
 
 files=$(find . -name "PKGBUILD")
 
+mkdir -p "$ARTIFACTS_PATH"
+
 for f in $files
 do
         d=$(dirname $f)
         cd $d
         docker run --name ci-build -e EXPORT_PKG=1 -e CHECKSUMS=1 -e SYNC_DATABASE=1 -v $PWD:/pkg -v /home/ptr1337/ccache:/home/notroot/.buildcache pttrr/docker-makepkg
         docker rm ci-build
+        mv *.tar.zst* "$ARTIFACTS_PATH"
         cd ..
 done
 
-mv */*.tar.zst* /home/ptr1337/.docker/build/nginx/www/repo/x86_64/cachyos
-update-repo
-repo-manage-util -p cachyos update
+cd "$ARTIFACTS_PATH"
+repo-manage-util -p cachyos move-pkgs-to-repo
+
+rm -rf "$ARTIFACTS_PATH"
