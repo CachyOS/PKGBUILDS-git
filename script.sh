@@ -4,38 +4,14 @@ rm -rf *-git
 
 ARTIFACTS_PATH="$PWD/artifacts"
 
-paru -G dracula-icons-git \
-dracula-cursors-git \
-dracula-xresources-git \
-dracula-grub-theme-git \
-konsole-dracula-git \
-contour-git \
-eza-git \
-fastfetch-git \
-fbneo-git \
-findex-git \
-firejail-git \
+paru -G contour-git \
 fish-git \
-ftxui-git \
-libretro-fbneo-git \
-lapce-git \
 openrgb-git \
-parui-git \
-wlroots-git \
-zellij-git \
-bspwm-git \
 gamescope-git \
-spectrwm-git \
-krusader-git \
 wf-osk-git \
-bcachefs-tools-git \
 swaylock-git \
 mold-git \
-waybar-mpris-git \
 nss-hg \
-btrfs-assistant-git \
-fractal-git \
-numad-git \
 neovim-git \
 apparmor.d-git \
 vkd3d-proton-git \
@@ -69,11 +45,6 @@ niri-git
 # Use custom mpv-git package to avoid issues
 mkdir mpv-git && cd mpv-git
 wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/mpv-git/PKGBUILD
-cd ..
-
-# Use custom mpv-git package to avoid issues
-mkdir quickshell-git && cd quickshell-git
-wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/quickshell-git/PKGBUILD
 cd ..
 
 files=$(find . -name "PKGBUILD")
