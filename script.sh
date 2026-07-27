@@ -47,6 +47,12 @@ mkdir mpv-git && cd mpv-git
 wget https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/master/mpv-git/PKGBUILD
 cd ..
 
+# Use custom jay-git package to avoid issues
+git clone https://github.com/CachyOS/cachyos-aur-derived.git temp-aur-derived
+cp -rf temp-aur-derived/jay-git .
+rm -rf temp-aur-derived
+
+
 files=$(find . -name "PKGBUILD")
 
 mkdir -p "$ARTIFACTS_PATH"
