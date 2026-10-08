@@ -17,7 +17,6 @@ apparmor.d-git \
 vkd3d-proton-git \
 vkd3d-proton-mingw-git \
 dxvk-mingw-git \
-lact-git \
 gccrs-git \
 cosmic-launcher-git \
 cosmic-notifications-git \
