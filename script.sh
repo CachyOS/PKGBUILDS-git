@@ -36,7 +36,6 @@ cosmic-edit-git \
 cosmic-files-git \
 cosmic-term-git \
 cosmic-wallpapers-git \
-cosmic-session-git \
 cosmic-randr-git \
 cosmic-icons-git \
 niri-git
